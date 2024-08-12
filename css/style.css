@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #939196;
+}
+
+/* HEADER */
+.bg-icecream {
+  background-color: #231F20;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+header .offcanvas {
+  background-color: #231F20;
+}
+header .container-fluid button {
+  background-color: #fff;
+}
+header .navbar-nav {
+  list-style: none;
+  margin-bottom: 0;
+}
+header .navbar-nav li {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+header .navbar-nav li a {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+}
+header .navbar-nav li a:hover {
+  color: #D00000;
+  transition: 0.3s;
+}
+header .navbar-nav li a.active {
+  color: #D00000;
+}
+header a {
+  text-decoration: none;
+}
+header .logo {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 700;
+}
+header .logo-img {
+  height: 70px;
+  padding: 0 10px;
+  border-radius: 20px;
+}
+
+/* FOOTER */
+footer {
+  display: grid;
+  text-align: center;
+  background-color: #231F20;
+  color: white;
+  padding-top: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+footer section {
+  border-right: solid #939196 1px;
+  margin-bottom: 10px;
+}
+footer .logos {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  margin: 5px;
+  fill: #D00000;
+}
+footer a {
+  text-decoration: none;
+}
+footer .redes-icons {
+  padding: 5px;
+}
+
+main .hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../assets/images/walhorizontal.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+main .hero-img .info {
+  color: white;
+}
+main .hero-img .info h1 {
+  font-size: 50px;
+  font-weight: 20px;
+}
+main .hero-img .info h2 {
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */

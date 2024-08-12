@@ -1,0 +1,26 @@
+/* FOOTER */
+footer{
+    display: grid;
+    text-align: center;
+    background-color:$mainColor;
+    color: white;
+    padding-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    section{
+        border-right: solid #939196 1px;
+        margin-bottom: 10px;
+    }
+    .logos{
+        width: 38px;
+        height: 38px;
+        border-radius: 10px;
+        margin: 5px;
+        fill: $subColor;
+    }
+    a{
+        text-decoration: none;
+    }
+    .redes-icons{
+        padding: 5px;
+    }
+}
