@@ -1,0 +1,20 @@
+// Index
+@media (max-width: 820px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        section{
+            border-right: none;
+            margin-bottom: none;
+            padding-right: 10px;
+        }
+        // display: flex;
+        // flex-direction: column;
+    }
+    
+}
+
+// Contacto
+
+// Sobre Nosotros
+

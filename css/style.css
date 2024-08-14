@@ -92,6 +92,10 @@ footer a {
 footer .redes-icons {
   padding: 5px;
 }
+footer iframe {
+  width: 100%;
+  height: auto;
+}
 
 main .hero-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../assets/images/walhorizontal.jpg");
@@ -112,6 +116,20 @@ main .hero-img .info h1 {
 }
 main .hero-img .info h2 {
   font-size: 25px;
+}
+
+/* SOBRE NOSOTROS */
+/* CONTACTO */
+@media (max-width: 820px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  footer section {
+    border-right: none;
+    margin-bottom: none;
+    padding-right: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
