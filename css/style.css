@@ -48,6 +48,7 @@ header .navbar-nav li a {
 header .navbar-nav li a:hover {
   color: #D00000;
   transition: 0.3s;
+  border-bottom: 1px solid #D00000;
 }
 header .navbar-nav li a.active {
   color: #D00000;
@@ -117,7 +118,10 @@ main .hero-img .info h1 {
 main .hero-img .info h2 {
   font-size: 25px;
 }
-
+main .hero-img .info .boton-h a .btn-outline-danger {
+  color: #D00000;
+  border-color: #D00000;
+}
 /* SOBRE NOSOTROS */
 /* CONTACTO */
 @media (max-width: 820px) {

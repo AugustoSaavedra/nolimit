@@ -38,6 +38,7 @@ header {
                     &:hover{
                         color:$subColor;
                         transition: 0.3s;
+                        border-bottom: 1px solid $subColor;
                     }
                     &.active{
                         color:$subColor;
