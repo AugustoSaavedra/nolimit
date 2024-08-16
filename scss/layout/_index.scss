@@ -5,7 +5,7 @@ main {
         background-image: linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.9)), url("../assets/images/walhorizontal.jpg");
         background-position: center;
         background-size: cover;
-        height: 100vh;
+        height: 95vh;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -30,8 +30,9 @@ main {
             }
         }
     }
-    .table{
-        
-        
+    .tabla{
+        background-color: aqua;
+        color: aqua;
+        margin-bottom: 0;
     }
 }

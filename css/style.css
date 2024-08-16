@@ -102,7 +102,7 @@ main .hero-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../assets/images/walhorizontal.jpg");
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 95vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -122,6 +122,12 @@ main .hero-img .info .boton-h a .btn-outline-danger {
   color: #D00000;
   border-color: #D00000;
 }
+main .tabla {
+  background-color: aqua;
+  color: aqua;
+  margin-bottom: 0;
+}
+
 /* SOBRE NOSOTROS */
 /* CONTACTO */
 @media (max-width: 820px) {
